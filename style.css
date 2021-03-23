@@ -1,0 +1,328 @@
+.navbar{
+	background-color:#088A29;
+}
+
+
+.home .coll-1{
+	
+	background:#153336!important;
+}
+.home .coll-2{
+	
+	background:url(5.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height:500px;
+	background-position:center;
+	
+	
+
+
+	
+	
+}	
+.navbar-brand h4,span{
+font-family: 'Lobster', cursive;
+font-size:20px;
+}
+.navbar-brand .since{
+	font-size:15px;
+font-family: 'Syne Mono', monospace;
+}
+.home-text h2{
+
+	font-size:45px;
+	color: white;
+	font-family: 'Lobster', cursive;
+}
+.home-text p{
+color:white;
+font-family: 'Syne Mono', monospace;
+}
+.home-text button{
+	padding:10px 35px!important;
+}
+.home-text{
+	margin-top:150px;
+	margin-left:20px;
+	/*position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);*/
+}
+
+/*################about#################*/
+
+.about-text h4,h2{
+	font-family: 'Syne Mono', monospace;
+
+}
+.
+.about-img{
+	position:relative;
+}
+ .img-icon{
+ 	position:absolute;
+ 	top:0;
+ 	left:0;
+ 	text-align:center;
+ 	height:100%;
+ 	width:100%; 
+
+
+ }
+ .img-icon a i{
+
+	position:absolute;
+	font-size:25px;
+	height:60px;
+	width:60px;
+	line-height:60px;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		border-radius:50%;
+color:white;
+background: #088A29;}
+ 
+/*################ end about#################*/
+
+
+/*################owl#################*/
+.food img{
+height:400px;
+}
+.food{
+	position:relative;
+	overflow:hidden;
+
+}
+.food-name{
+position:absolute;
+	background:#000000d9;
+	right:0;
+	bottom:0;
+	height:0;
+	width:100%;
+    
+	text-align: center;
+	opacity:0;
+	transition:0.5s;
+}
+.food:hover .food-name{
+	opacity:1;
+	height:60%;
+	transition:0.5s;
+}
+.food .food-price{
+	position:absolute;
+	color:white;
+	top:0;
+	left:0;
+	background:#088A29;
+	padding:15px;}
+
+/*################owl end#################*/
+
+
+/*################chef#################*/
+
+.chef-text h4{
+	color:#088A29!important;
+}
+
+.about-chef{
+	position:relative;
+	overflow:hidden;
+}
+.about-chef img{
+		height:400px;
+	width:100%;
+}
+
+
+.chef-icon{
+	position:absolute;
+	background:#000000d9;
+	left:0;
+	top:0;
+	height:100%;
+	width:0;
+
+	text-align: center;
+	opacity:0;
+	transition:0.5s;
+}
+.chef-icon h2{
+  color:#088A29!important; 
+}
+
+
+
+
+.chef-icon ul li{
+	display:inline-block;
+	padding:5px;}
+
+.chef-icon ul li a{
+	display: block;
+	font-size:25px;
+	height:40px!important;
+	width:40px;
+
+margin-top:30px!important;
+background:#088A29 ;
+color: white;}
+.chef-icon ul{
+		margin:0;
+		padding: 0;
+		}
+
+.about-chef:hover .chef-icon{
+	opacity:1;
+	width:100%;
+	transition:0.6s;
+	
+}
+
+
+/*################order#################*/
+#order{
+	background:linear-gradient(130deg,#0a8a0859 50%,#00000085 50%),url(1.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:center;
+	min-height:600px;
+	position:relative;
+
+
+
+}
+.order-text{
+	
+	background:#00000094;
+	padding:10px 50px!important;
+	width:50%;
+	margin-left:270px;
+
+	
+}
+
+
+/*################order end #################*/
+
+
+
+/*################item end#################*/
+
+#footer{
+	background:#088A29;
+	color:white;
+}
+.about-us-icon ul li{
+	display:inline-block;
+}
+.about-us-icon ul li a{
+	display:block;
+	font-size:25px;
+	height:40px!important;
+	width:40px;
+text-align:center;
+color:black;
+border-radius:50%;
+background: white;}
+ .about-us-icon ul{
+ 	margin:0;
+ 	padding:0;
+
+ }
+ .Quick-Link ul li{
+ 	list-style:none;
+ 	margin-top:5px;
+ 	text-decoration:none;
+ }
+  .Quick-Link ul{
+  		margin:0;
+ 	padding:0;
+  }
+.contact-icon{
+
+	color:black;
+}
+
+/*******************card********************/
+
+/*
+
+.main img{
+	height:400px;
+	width:100%;
+}
+.main .price{
+	position:absolute;
+	color:white;
+	top:0;
+	left:0;
+	background:red;
+	padding:10px; 
+}
+
+.main{
+	position:relative;
+	overflow:hidden;
+}
+.icon{
+
+	position:absolute;
+	background:#000000d9;
+	right:0;
+	bottom:0;
+	height:0;
+	width:100%;
+
+	text-align: center;
+	opacity:0;
+	transition:0.5s;
+}
+.icon ul li{
+	display:inline-block;
+	padding:5px;
+}
+.icon ul li a{
+	display: block;
+	font-size:25px;
+	height:40px!important;
+	width:40px;
+
+margin-top:30px!important;
+background: red;}
+	.icon ul{
+		margin:0;
+		padding: 0;
+		margin-top:50px!important;
+	}
+.main:hover .icon{
+	opacity:1;
+	height:80%;
+	transition:0.6s;
+	overflow:hidden;
+}
+*/
+/*******************card********************/
+@media(max-width:475px){
+
+.order-text{
+	
+	
+	padding:10px 20px!important;
+	width:90%;
+	margin-left:10px;}
+
+	.home-text{
+	margin-top:20px;
+	margin-left:20px;}
+
+	.home-text h2{
+
+	font-size:25px;}
+}
